@@ -1,0 +1,122 @@
+.signup {
+  margin-top: -430px;
+  position: relative;
+  z-index: 10;
+  padding: 0 50px;
+}
+
+.signup .two-col-equal .col {
+  padding: 0 50px;
+}
+
+.signup .two-col-equal .col .line {
+  width: 60px;
+  border-bottom: 1px solid #fff;
+  margin-top: 50px;
+}
+
+.signup .two-col-equal .col .btn-learn {
+  text-decoration: none;
+  color: var(--primary);
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.signup .two-col-equal .col .btn-learn i {
+  margin-right: 10px;
+  font-size: 18px;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.signup .two-col-equal .col .btn-learn:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 70%;
+}
+
+.howItWorks {
+  text-align: center;
+  color: var(--black80);
+  padding: 100px 100px 0 100px;
+}
+
+.howItWorks .three-col-equal {
+  margin-top: 50px;
+}
+
+.howItWorks .three-col-equal .col {
+  padding: 20px;
+}
+
+.howItWorks .three-col-equal .col i {
+  font-size: 50px;
+  color: var(--primary);
+}
+
+.faqs {
+  padding: 0 100px;
+  margin-top: 80px;
+}
+
+.faqs .col .faqs-text {
+  font-size: 55px;
+  color: var(--black80);
+}
+
+@media (max-width: 1270px) {
+  .signup .two-col-equal .col {
+    padding: 0;
+  }
+  .howItWorks {
+    padding: 80px 50px 0 50px;
+  }
+  .faqs {
+    padding: 0 50px;
+  }
+  .faqs .col .faqs-text {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 950px) {
+  .signup .two-col-equal .col .line {
+    margin-top: 0;
+  }
+  .faqs .col2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .signup, .howItWorks, .faqs {
+    padding: 0 20px;
+  }
+  .howItWorks {
+    margin-top: 80px;
+  }
+  .howItWorks .three-col-equal .col {
+    padding: 0;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .signup {
+    margin-top: -370px;
+  }
+  .signup .col2 {
+    margin-top: 30px !important;
+  }
+  .signup .col2 .form .back-arrow {
+    display: none;
+  }
+  .faqs .col .faqs-text {
+    font-size: 28px;
+  }
+}
+/*# sourceMappingURL=signup.css.map */

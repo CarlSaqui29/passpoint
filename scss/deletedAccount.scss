@@ -1,0 +1,46 @@
+.successDelete {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 30px 20px;
+  .content {
+    width: 600px;
+    text-align: center;
+    img {
+      width: 150px;
+    }
+    a {
+      padding: 15px 60px;
+      width: 300px;
+      border-radius: 5px;
+      background-color: var(--primary);
+      color: #fff;
+      transition: .3s;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 50px;
+      &:hover {
+        opacity: 70%;
+        transition: .3s;
+      }
+    }
+  } 
+}
+
+@media (max-width: 600px) {
+  .successDelete {
+    .content {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .successDelete {
+    .content {
+      a {width: 100%}
+    }
+  }
+}
+

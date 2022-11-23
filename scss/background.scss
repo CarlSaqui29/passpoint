@@ -1,0 +1,20 @@
+.background-img{
+  background-image: url('/imgs/bg.png');
+  // background-image: url('/imgs/bg1.jpg');
+  // background:linear-gradient(120deg, rgba(10,10,10, .5), rgba(10,10,10, .5)), url('/imgs/bg1.jpg');
+  // background-position: 30% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 0%;
+  height: 550px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 70% 100%, 0 80%); //(x,y)
+  // clip-path: polygon(top-left-point, top-right-point, bottom-right-point, middle point,bottom-left-point);
+}
+
+@media (max-width: 1000px) {
+  .background-img {clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);}
+}
+
+@media (max-width: 460px) {
+  .background-img {height: 470px ;}
+}

@@ -1,0 +1,52 @@
+.successDelete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  padding: 30px 20px;
+}
+
+.successDelete .content {
+  width: 600px;
+  text-align: center;
+}
+
+.successDelete .content img {
+  width: 150px;
+}
+
+.successDelete .content a {
+  padding: 15px 60px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.successDelete .content a:hover {
+  opacity: 70%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media (max-width: 600px) {
+  .successDelete .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .successDelete .content a {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=deletedAccount.css.map */

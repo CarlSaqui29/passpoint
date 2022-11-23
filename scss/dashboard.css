@@ -1,0 +1,174 @@
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#nav .user {
+  width: 50px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 100px 100px 0 100px;
+}
+
+.dashboard .tagline {
+  margin-top: -15px;
+}
+
+.dashboard form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard form input {
+  padding: 10px 20px;
+}
+
+.dashboard form select {
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #D9D9D9;
+  border-right: none;
+  outline-color: var(--primary);
+  cursor: pointer;
+  font-size: 16px;
+  width: 400px;
+  /** for the dropdown indicator */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 16px;
+}
+
+.dashboard form input[type=button] {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -2px;
+}
+
+.dashboard table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard table thead {
+  background-color: var(--secondary);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.dashboard table thead th {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.dashboard table tbody tr td {
+  font-size: 12px;
+  color: var(--black70);
+  padding: 10px 20px;
+}
+
+.dashboard table tbody tr td a {
+  color: #F00303;
+  text-decoration: none;
+}
+
+.dashboard table tbody tr td a:hover {
+  text-decoration: underline;
+}
+
+.editModalForm input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(10, 10, 10, 0.1);
+  outline-color: var(--primary);
+}
+
+.editModalForm input:first-child {
+  margin-top: 0 !important;
+}
+
+.editModalForm input[type=submit] {
+  background-color: var(--primary);
+  color: #fff;
+  outline: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.editModalForm input[type=submit]:hover {
+  opacity: 70%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Edit-Profile-Modal a {
+  color: #F00303;
+  text-decoration: none;
+}
+
+#Edit-Profile-Modal a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1270px) {
+  .dashboard {
+    padding: 100px 50px 0 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  #nav .user {
+    width: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .dashboard {
+    padding: 100px 20px 0 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .dashboard form {
+    display: block;
+  }
+  .dashboard form select {
+    width: 100%;
+    border-right: 1px solid #D9D9D9;
+    border-radius: 5px;
+  }
+  .dashboard form input[type=button] {
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */
